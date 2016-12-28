@@ -1,0 +1,15 @@
+name:                NotOnHackage
+version:             0.1.0.0
+synopsis:            This library is not on Hackage
+license:             BSD3
+license-file:        LICENSE
+author:              Ryan Trinkle
+maintainer:          ryan.trinkle@gmail.com
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+library
+  build-depends:       base >=4.9 && <4.10
+  default-language:    Haskell2010
+  exposed-modules:     NotOnHackage
